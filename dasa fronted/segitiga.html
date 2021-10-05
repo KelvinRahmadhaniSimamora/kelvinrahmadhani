@@ -1,0 +1,24 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equip="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Segitiga</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="bangun-datar.js"></script>
+        <script type="text/javascript" src="display.js"></script>
+        <script type="text/javascript">
+            let Atas = Number(prompt("Masukan ukuran Alas (cm)"));
+            let Tinggi = Number(prompt("Masukan ukuran Tinggi (cm)"));
+            let Sisi1 = Number(prompt("Masukan ukuran Sisi 1 (cm)"));
+            let Sisi2 = Number(prompt("Masukan ukuran Sisi 2 (cm)"));
+
+            let luas = luasSegitiga(Atas,Tinggi);
+            let keliling = kelilingSegitiga(Atas,Sisi1,Sisi2);
+    
+            display(displayHasil,luas,keliling);
+        </script>
+    </body>
+    </html>

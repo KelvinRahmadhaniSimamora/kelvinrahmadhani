@@ -1,0 +1,26 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equip="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layang-layang</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="bangun-datar.js"></script>
+        <script type="text/javascript" src="display.js"></script>
+        <script type="text/javascript">
+            let Diameter1 = Number(prompt("Masukan ukuran Diameter 1 (cm)"));
+            let Diameter2 = Number(prompt("Masukan ukuran Diameter 2 (cm)"));
+            let Sisi1 = Number(prompt("Masukan ukuran Sisi Atas Kiri (cm)"));
+            let Sisi2 = Number(prompt("Masukan ukuran Sisi Atas Kanan (cm)"));
+            let Sisi3 = Number(prompt("Masukan ukuran Sisi Bawah Kiri (cm)"));
+            let Sisi4 = Number(prompt("Masukan ukuran Sisi Bawah Kiri(cm)"));
+
+            let luas = luasLayang(Diameter1,Diameter2);
+            let keliling = kelilingLayang(Sisi1,Sisi2,Sisi3,Sisi4);
+    
+            display(displayHasil,luas,keliling);
+        </script>
+    </body>
+    </html>
